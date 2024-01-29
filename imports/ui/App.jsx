@@ -8,7 +8,7 @@ import Account from "./Account.jsx";
 import Setting from "./Setting.jsx";
 import Login from "./Login.jsx";
 import Signup from "./Signup.jsx";
-
+import Footer from "./Footer.jsx";
 export const App = () => (
   <Router>
     <Navbar />
@@ -24,5 +24,6 @@ export const App = () => (
 
       <Route path="/signup" exact element={<Signup />} />
     </Routes>
+    <Footer />
   </Router>
 );
